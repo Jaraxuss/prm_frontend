@@ -3,4 +3,9 @@ import { format } from 'path';
 export { default as App } from './App';
 export { default as HomePage } from './page/HomePage';
 
-export { default as HeadTabComp } from './components/HeadTabComp';
+export { default as HeadComp } from './components/HeadComp';
+export { default as FooterComp } from './components/FooterComp';
+export { default as LatestThreeMonthsActivitiesCardComp } from './components/LatestThreeMonthsActivitiesCardComp';
+export { default as ReleaseNotesComp } from './components/ReleaseNotesComp';
+export { default as TabsComp } from './components/TabsComp';
+export { default as SummaryComp } from './components/SummaryComp';
