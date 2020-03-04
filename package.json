@@ -52,6 +52,7 @@
         "react": "^16.12.0",
         "react-dev-utils": "^5.0.0",
         "react-dom": "^16.12.0",
+        "react-highlight-words": "^0.16.0",
         "react-hot-loader": "^4.12.18",
         "react-mobile-picker": "^0.1.12",
         "react-redux": "^5.1.2",

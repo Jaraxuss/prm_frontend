@@ -1,5 +1,6 @@
 import {
     HomePage,
+    ContactsPage,
 } from './index';
 
 
@@ -13,10 +14,10 @@ export default {
             component: HomePage,
             isIndex: true,
         },
-        // {
-        //     path: '/TechnologyPage',
-        //     name: 'TechnologyPage',
-        //     component: TechnologyPage,
-        // },
+        {
+            path: '/contacts',
+            name: 'ContactsPage',
+            component: ContactsPage,
+        },
     ],
 };
