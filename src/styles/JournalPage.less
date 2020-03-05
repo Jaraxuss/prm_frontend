@@ -1,0 +1,55 @@
+.JournalPage {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+
+    .cardLeft {
+        flex-direction: column;
+        justify-content: space-between;
+
+        .moodInput {
+            border-style: outset;
+            border-color: #2f4d70;
+            border-radius: 5px;
+            border-width: 0.5px;
+            background-color: white;
+            height: 60px;
+
+            .welcomeText {
+                font-size: 20px;
+                line-height: 60px;
+                padding-left: 10px;
+            }
+
+            .moods {
+                font-size: 35px;
+                margin-left: 8px;
+                line-height: 65px;
+            }
+        }
+
+        .cardBottom {
+            .calendar {
+                border-style: outset;
+                border-color: #2f4d70;
+                border-radius: 5px;
+                border-width: 0.5px;
+                background-color: white;
+                width: 70px;
+                height: 70px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .innerBox {
+                    text-align: center;
+                    line-height: 25px;
+                }
+            }
+        }
+    }
+}
+

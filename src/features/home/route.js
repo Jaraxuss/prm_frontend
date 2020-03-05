@@ -1,6 +1,7 @@
 import {
     HomePage,
     ContactsPage,
+    JournalPage,
 } from './index';
 
 
@@ -18,6 +19,11 @@ export default {
             path: '/contacts',
             name: 'ContactsPage',
             component: ContactsPage,
+        },
+        {
+            path: '/journal',
+            name: 'JournalPage',
+            component: JournalPage,
         },
     ],
 };
