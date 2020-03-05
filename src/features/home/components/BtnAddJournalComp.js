@@ -7,7 +7,7 @@ import { Button } from 'antd';
 import { PlusCircleOutlined } from '@ant-design/icons';
 
 
-export class BtnAddContactComp extends Component {
+export class BtnAddJournalComp extends Component {
 
     state = {
         searchText: '',
@@ -20,11 +20,11 @@ export class BtnAddContactComp extends Component {
     };
 
     render() {
-        return <Button className="BtnAddContact" type="primary"
+        return <Button className="BtnAddJournalComp" type="primary"
                        icon={<PlusCircleOutlined/>}
                        style={{ background: '#2f4d70', borderColor: '#2f4d70' }}
         >
-            添加联系人
+            添加日记
         </Button>;
     }
 }
@@ -43,4 +43,4 @@ function mapDispatchToProps(dispatch) {
     };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(BtnAddContactComp);
+export default connect(mapStateToProps, mapDispatchToProps)(BtnAddJournalComp);

@@ -11,10 +11,10 @@
         justify-content: space-between;
 
         .moodInput {
-            border-style: outset;
-            border-color: #2f4d70;
+            border-style: solid;
+            border-color: #E0E0E0;
             border-radius: 5px;
-            border-width: 0.5px;
+            border-width: 1px;
             background-color: white;
             height: 60px;
 
@@ -33,10 +33,10 @@
 
         .cardBottom {
             .calendar {
-                border-style: outset;
-                border-color: #2f4d70;
+                border-style: solid;
+                border-color: #E0E0E0;
                 border-radius: 5px;
-                border-width: 0.5px;
+                border-width: 1px;
                 background-color: white;
                 width: 70px;
                 height: 70px;
@@ -47,6 +47,39 @@
                 .innerBox {
                     text-align: center;
                     line-height: 25px;
+                }
+            }
+
+            .journal {
+                border-style: solid;
+                border-color: #E0E0E0;
+                border-radius: 5px;
+                border-width: 1px;
+                background-color: white;
+                min-height: 115px;
+                margin-bottom: 15px;
+
+                .dateBox {
+                    font-size: 15px;
+                    text-align: center;
+                    line-height: 20px;
+                    margin-top: 20px;
+                }
+
+                .journalText {
+                    font-size: 15px;
+                    line-height: 75px;
+                    min-height: 75px;
+                }
+
+                .bottomText {
+                    display: inline-block;
+                    font-size: 0.74rem;
+                }
+
+                .btnRmJournal {
+                    font-size: 0.74rem;
+                    text-decoration: underline;
                 }
             }
         }

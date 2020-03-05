@@ -62,11 +62,6 @@ export class HomePage extends Component {
                                     justifyContent: 'center',
                                 }}>
                                     <BtnAddContactComp/>
-                                    {/*<Button className="BtnAddContact" type="primary" shape="round"*/}
-                                    {/*        icon={<PlusCircleOutlined/>}*/}
-                                    {/*        style={{ background: '#2f4d70', borderColor: '#2f4d70' }}>*/}
-                                    {/*    添加联系人*/}
-                                    {/*</Button>*/}
                                 </Col>
                             </Row>
 

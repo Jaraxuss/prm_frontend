@@ -4,7 +4,7 @@ import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import * as actions from '../redux/actions';
 import { Layout, Menu } from 'antd';
-import { Row, Col } from 'antd';
+import { Row, Col, Divider } from 'antd';
 import { Breadcrumb } from 'antd';
 import {
     SmileOutlined,
@@ -13,7 +13,7 @@ import {
 } from '@ant-design/icons';
 
 
-import { HeadComp, FooterComp } from '../';
+import { HeadComp, FooterComp, BtnAddJournalComp } from '../';
 import history from '../../../common/history';
 
 const { Content } = Layout;
@@ -73,7 +73,7 @@ export class JournalPage extends Component {
                                         </div>
                                         <div className="cardBottom" style={{ marginTop: '20px' }}>
                                             <Row>
-                                                <Col span={4} offset={0}>
+                                                <Col flex={1}>
                                                     <div className="calendar">
                                                         <div className="innerBox">
                                                             二月<br/>
@@ -81,15 +81,106 @@ export class JournalPage extends Component {
                                                         </div>
                                                     </div>
                                                 </Col>
-                                                <Col span={20} offset={0}>
-                                                    <div className="fuck bbbbb"></div>
+                                                <Col flex={60}>
+                                                    <div className="journal">
+                                                        <Row>
+                                                            <Col span={3}>
+                                                                <div className="dateBox">
+                                                                    <strong>28</strong><br/>
+                                                                    星期五
+                                                                </div>
+                                                            </Col>
+                                                            <Col span={21}>
+                                                                <div className="journalText">
+                                                                    检查作业
+                                                                </div>
+                                                            </Col>
+                                                            <Divider style={{ margin: '5px 5px', fontSize: '20px' }}/>
+                                                            <Col span={21} offset={3}>
+                                                                <div className="bottomText">
+                                                                    评价你的一天。
+                                                                </div>
+                                                                <a className="btnRmJournal"
+                                                                   href="javascript: void(0)">删除</a>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                    <div className="journal">
+                                                        <Row>
+                                                            <Col span={3}>
+                                                                <div className="dateBox">
+                                                                    <strong>28</strong><br/>
+                                                                    星期五
+                                                                </div>
+                                                            </Col>
+                                                            <Col span={21}>
+                                                                <div className="journalText">
+                                                                    检查作业
+                                                                </div>
+                                                            </Col>
+                                                            <Divider style={{ margin: '5px 5px', fontSize: '20px' }}/>
+                                                            <Col span={21} offset={3}>
+                                                                <div className="bottomText">
+                                                                    评价你的一天。
+                                                                </div>
+                                                                <a className="btnRmJournal"
+                                                                   href="javascript: void(0)">删除</a>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                    <div className="journal">
+                                                        <Row>
+                                                            <Col span={3}>
+                                                                <div className="dateBox">
+                                                                    <strong>28</strong><br/>
+                                                                    星期五
+                                                                </div>
+                                                            </Col>
+                                                            <Col span={21}>
+                                                                <div className="journalText">
+                                                                    检查作业
+                                                                </div>
+                                                            </Col>
+                                                            <Divider style={{ margin: '5px 5px', fontSize: '20px' }}/>
+                                                            <Col span={21} offset={3}>
+                                                                <div className="bottomText">
+                                                                    评价你的一天。
+                                                                </div>
+                                                                <a className="btnRmJournal"
+                                                                   href="javascript: void(0)">删除</a>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
+                                                    <div className="journal">
+                                                        <Row>
+                                                            <Col span={3}>
+                                                                <div className="dateBox">
+                                                                    <strong>28</strong><br/>
+                                                                    星期五
+                                                                </div>
+                                                            </Col>
+                                                            <Col span={21}>
+                                                                <div className="journalText">
+                                                                    检查作业
+                                                                </div>
+                                                            </Col>
+                                                            <Divider style={{ margin: '5px 5px', fontSize: '20px' }}/>
+                                                            <Col span={21} offset={3}>
+                                                                <div className="bottomText">
+                                                                    评价你的一天。
+                                                                </div>
+                                                                <a className="btnRmJournal"
+                                                                   href="javascript: void(0)">删除</a>
+                                                            </Col>
+                                                        </Row>
+                                                    </div>
                                                 </Col>
                                             </Row>
                                         </div>
                                     </div>
                                 </Col>
                                 <Col lg={{ span: 6, offset: 0 }}>
-                                    <div className="fuck"></div>
+                                    <BtnAddJournalComp/>
                                 </Col>
                             </Row>
                         </Content>

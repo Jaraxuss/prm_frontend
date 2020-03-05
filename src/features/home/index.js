@@ -14,3 +14,4 @@ export { default as TabsComp } from './components/TabsComp';
 export { default as SummaryComp } from './components/SummaryComp';
 export { default as ContactsListComp } from './components/ContactsListComp';
 export { default as BtnAddContactComp } from './components/BtnAddContactComp';
+export { default as BtnAddJournalComp } from './components/BtnAddJournalComp';
