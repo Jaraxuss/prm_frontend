@@ -2,6 +2,7 @@ import {
     HomePage,
     ContactsPage,
     JournalPage,
+    ContactDetailPage,
 } from './index';
 
 
@@ -24,6 +25,11 @@ export default {
             path: '/journal',
             name: 'JournalPage',
             component: JournalPage,
+        },
+        {
+            path: '/contactDetail',
+            name: 'ContactDetailPage',
+            component: ContactDetailPage,
         },
     ],
 };
